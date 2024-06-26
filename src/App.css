@@ -27,6 +27,12 @@
 .App-link {
   color: #61dafb;
 }
+.tech-icons-name {
+  font-size: 22px;
+  font-family: cursive;
+  padding: 0;
+  margin: 0;
+}
 
 @keyframes App-logo-spin {
   from {

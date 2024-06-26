@@ -12,9 +12,9 @@ function AboutCard() {
             <span className="purple">Umair Ibrahim Idris </span>
             from <span className="purple"> Kano state, Nigeria.</span>
             <br />
-            I am currently a freelance.
+            I am currently a freelance developer
             <br />
-            I have completed Integrated Bachelor Of Science In Accounting.
+            With an Integrated Bachelor of Science in Accounting.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
@@ -9,60 +8,56 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiHtml5,
+  DiCss3,
 } from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import { SiRedis, SiFirebase, SiNextdotjs, SiPostgresql } from "react-icons/si";
+import { BsFiletypeSql } from "react-icons/bs";
+import { TbBrandReactNative } from "react-icons/tb";
+import "../../App.css";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiHtml5 />
+        <div className="tech-icons-name">HTML</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+        <div className="tech-icons-name">JavaScript</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <DiCss3 />
+        <div className="tech-icons-name">CSS</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
+        <div className="tech-icons-name">Node js</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+        <div className="tech-icons-name">React js</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <BsFiletypeSql />
+        <div className="tech-icons-name">SQL</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
+        <div className="tech-icons-name">Mongodb</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <TbBrandReactNative />
+        <div className="tech-icons-name">React Native</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+        <div className="tech-icons-name">Git</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <div className="tech-icons-name">Firebase</div>
       </Col>
     </Row>
   );
