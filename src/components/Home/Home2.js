@@ -6,6 +6,8 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineWhatsApp,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,19 +21,22 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with programming and have learned a bit along the
+              way, I think 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I am quite fluent in classics like
               <i>
                 <b className="purple"> Javascript and SQL. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My fields of interest include building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to <b className="purple">Mobile App.</b>
+                <b className="purple">
+                  Web Technologies, Mobile App and Products{" "}
+                </b>{" "}
+                as well as areas related to.{" "}
+                <b className="purple">Animation creation</b>
               </i>
               <br />
               <br />
@@ -100,6 +105,26 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://wa.me/2347061162787"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiOutlineWhatsApp />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:umairibrahim07@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiOutlineMail />
                 </a>
               </li>
             </ul>
