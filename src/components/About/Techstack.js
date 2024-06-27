@@ -5,13 +5,11 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
   DiGit,
-  DiJava,
   DiHtml5,
   DiCss3,
 } from "react-icons/di";
-import { SiRedis, SiFirebase, SiNextdotjs, SiPostgresql } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
 import { BsFiletypeSql } from "react-icons/bs";
 import { TbBrandReactNative } from "react-icons/tb";
 import "../../App.css";
