@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
+
 import {
   AiFillStar,
   AiOutlineHome,
@@ -13,6 +14,8 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { BiSolidContact } from "react-icons/bi";
+import { Link as ScrollLink } from "react-scroll";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -85,6 +88,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={ScrollLink}
+                to="find-me"
+                onClick={() => updateExpanded(false)}
+                style={{ cursor: "pointer" }}
+              >
+                <BiSolidContact style={{ marginBottom: "2px" }} /> connect
               </Nav.Link>
             </Nav.Item>
 

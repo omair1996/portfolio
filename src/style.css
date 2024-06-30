@@ -131,6 +131,11 @@ button:focus {
   visibility: hidden !important;
   background-color: transparent !important;
 }
+.connect {
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: large;
+}
 
 .navbar-toggler:not(.collapsed) span:nth-child(3) {
   position: absolute !important;
@@ -138,6 +143,11 @@ button:focus {
   top: 10px !important;
   transform: rotate(-135deg) !important;
   opacity: 0.9 !important;
+}
+@media (max-width: 600px) {
+  .media-icons {
+    margin-top: 3px;
+  }
 }
 
 @media (max-width: 767px) {

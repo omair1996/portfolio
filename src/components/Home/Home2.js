@@ -12,6 +12,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import { Modal, Button, Form } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
+import "../../style.css";
 
 function Home2() {
   const [show, setShow] = useState(false);
@@ -100,14 +101,10 @@ function Home2() {
         </Row>
         <Row>
           <Col md={8} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1 id="find-me">FIND ME ON</h1>
             <p>
               Feel free to{" "}
-              <span
-                className="purple"
-                onClick={handleShow}
-                style={{ cursor: "pointer" }}
-              >
+              <span className="purple connect" onClick={handleShow}>
                 connect{" "}
               </span>
               with me
@@ -153,7 +150,7 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
-              <li className="social-icons">
+              <li className="social-icons media-icons">
                 <a
                   href="https://wa.me/2347061162787"
                   target="_blank"
@@ -163,7 +160,7 @@ function Home2() {
                   <AiOutlineWhatsApp />
                 </a>
               </li>
-              <li className="social-icons">
+              <li className="social-icons media-icons">
                 <a
                   href="mailto:umairibrahim07@gmail.com"
                   target="_blank"
