@@ -10,6 +10,8 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiChessdotcom } from "react-icons/si";
+
 import { Modal, Button, Form } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
 import "../../style.css";
@@ -104,9 +106,9 @@ function Home2() {
             <h1 id="find-me">FIND ME ON</h1>
             <p>
               Feel free to{" "}
-              <span className="purple connect" onClick={handleShow}>
+              <Button variant="link" onClick={handleShow}>
                 connect{" "}
-              </span>
+              </Button>
               with me
             </p>
             <ul className="home-about-social-links">
@@ -170,6 +172,16 @@ function Home2() {
                   <AiOutlineMail />
                 </a>
               </li>
+              <li className="social-icons media-icons">
+                <a
+                  href="https://www.chess.com/member/omair1996"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <SiChessdotcom />
+                </a>
+              </li>
             </ul>
           </Col>
         </Row>
@@ -214,7 +226,7 @@ function Home2() {
               </Form.Group>
 
               <Button variant="primary" type="submit" style={{ marginTop: 5 }}>
-                Submit
+                Send
               </Button>
             </Form>
           </Modal.Body>

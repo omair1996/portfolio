@@ -60,6 +60,17 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
+                as={ScrollLink}
+                to="find-me"
+                onClick={() => updateExpanded(false)}
+                style={{ cursor: "pointer" }}
+              >
+                <BiSolidContact style={{ marginBottom: "2px" }} /> connect
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
                 as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
@@ -88,16 +99,6 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                as={ScrollLink}
-                to="find-me"
-                onClick={() => updateExpanded(false)}
-                style={{ cursor: "pointer" }}
-              >
-                <BiSolidContact style={{ marginBottom: "2px" }} /> connect
               </Nav.Link>
             </Nav.Item>
 

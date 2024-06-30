@@ -146,7 +146,7 @@ button:focus {
 }
 @media (max-width: 600px) {
   .media-icons {
-    margin-top: 3px;
+    margin-top: 5px;
   }
 }
 
